@@ -1,0 +1,47 @@
+# Project Metadata for XYZ Controller 4
+# Version: 1
+# Derived from: 260046-SI-99-ActionLaser-LVDTReplacement
+
+[document]
+type = "Quotation"
+number = "260052-SI-QU-0001"
+issue_date = ""
+issue_date_formatted = ""
+expiry_date = ""
+expiry_date_formatted = ""
+
+[project]
+id = "260052-SI"
+title = "XYZ Controller 4"
+
+[client]
+name = "Action Laser Pty Ltd"
+short_name = "ActionLaser"
+address_line1 = ""
+address_line2 = ""
+
+[client.contact]
+salutation = ""
+title = ""
+email = ""
+phone = ""
+
+[client.contact.name]
+first = ""
+last = ""
+
+[simplemotion]
+entity = "SimpleMotion.Projects Pty Ltd"
+short_name = "SimpleMotion"
+abn = "67 126 272 197"
+address_line1 = "20-22 Hampstead Rd"
+address_line2 = "AUBURN NSW 2144, Australia"
+phone = "+61 2 9046 1400"
+website = "www.simplemotion.com"
+
+[simplemotion.author]
+name = "Greg Gowans"
+pronouns = "he/him"
+title = "Managing Director"
+mobile = "+61 418 888 604"
+email = "greg.gowans@simplemotion.com"
