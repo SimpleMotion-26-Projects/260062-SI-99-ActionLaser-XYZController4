@@ -1,0 +1,91 @@
+/* SimpleMotion Invoice Stylesheet - 260052 XYZ Automated Table 4 */
+
+:root {
+  --font-stack: Calibri, 'Calibri Light', sans-serif;
+  --color-border: #999;
+  --color-header-bg: #f0f0f0;
+}
+
+@page {
+  size: A4;
+  margin: 15mm 20mm 20mm 20mm;
+
+  @top-center {
+    content: "260052-SI - XYZ Automated Table 4 - Design and Manufacture";
+    font-family: var(--font-stack);
+    font-size: 7pt;
+    vertical-align: middle;
+  }
+
+  @bottom-left {
+    content: "Actionlaser Pty Limited";
+    font-family: var(--font-stack);
+    font-size: 7pt;
+    vertical-align: middle;
+    padding-left: 5px;
+  }
+
+  @bottom-center {
+    content: "SI-IN-260052-01.pdf";
+    font-family: var(--font-stack);
+    font-size: 7pt;
+    vertical-align: middle;
+  }
+
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font-family: var(--font-stack);
+    font-size: 7pt;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+}
+
+@page :first {
+  margin: 10mm 20mm;
+  @top-center { content: none; }
+  @bottom-left { content: none; }
+  @bottom-center { content: none; }
+  @bottom-right { content: none; }
+}
+
+body { font-family: var(--font-stack); font-size: 9pt; line-height: 1.4; margin: 0; padding: 0; }
+section { padding: 5px; }
+table { width: 100%; }
+
+.page-one { display: flex; flex-direction: column; min-height: 277mm; page-break-after: always; }
+.page-one-header { text-align: center; font-size: 7pt; flex-shrink: 0; }
+.page-one-header img { width: 144mm; }
+.page-one-content { flex-grow: 1; }
+.page-one-footer { text-align: center; font-size: 7pt; flex-shrink: 0; margin-top: auto; }
+
+#document-type, #project-title { text-align: center; }
+#document-type p { margin: 0; padding: 0; }
+#project-title p { font-size: 10pt; padding: 8px 0; margin: 0; }
+
+#client-details, #contact { font-size: 7pt; padding: 0 5px; margin: 0; }
+#client-details table, #contact table { border-collapse: collapse; }
+#client-details td { padding: 6px 0; vertical-align: middle; line-height: 1.4; }
+#contact td { padding: 6px 0; vertical-align: middle; line-height: 1.4; text-align: left; }
+#client-details .client-name { width: 60%; text-align: left; }
+#client-details .label { width: 20%; text-align: right; }
+#client-details .value { width: 20%; text-align: right; }
+#client-details tr { border-bottom: 1px solid var(--color-border); }
+#contact tr { border-bottom: 2px solid var(--color-border); }
+
+.line-items { border-collapse: collapse; width: 100%; margin: 15px 5px; font-size: 8pt; }
+.line-items th, .line-items td { padding: 8px; border: 1px solid var(--color-border); vertical-align: middle; }
+.line-items th { background-color: var(--color-header-bg); font-weight: bold; text-align: left; }
+.line-items .units { text-align: center; }
+.line-items .unit-cost, .line-items .amount { text-align: right; }
+
+.totals-section { padding: 0 5px; margin-top: 20px; }
+.totals-table { width: 250px; margin-left: auto; border-collapse: collapse; font-size: 8pt; }
+.totals-table td { padding: 4px 8px; }
+.totals-table td:first-child { text-align: right; font-weight: bold; }
+.totals-table td:last-child { text-align: right; }
+.totals-table .total-row { border-top: 2px solid var(--color-border); font-weight: bold; }
+.totals-table .amount-due { background-color: var(--color-header-bg); font-weight: bold; font-size: 10pt; }
+
+#bank-details { font-size: 7pt; text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid #ccc; }
+#bank-details p { margin: 3px 0; }

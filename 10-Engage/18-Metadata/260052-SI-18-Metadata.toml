@@ -13,9 +13,9 @@ expiry_date_formatted = "Sat 28-02-2026"
 [project]
 id = "260052-SI"
 title = "XYZ Automated Table 4 - Design and Manufacture"
-base_price = 138005.00
+base_price = 50285.00
 multiplier = 1.14
-total_price = 157325.70
+total_price = 57325.70
 
 [client]
 name = "Actionlaser Pty Limited"
