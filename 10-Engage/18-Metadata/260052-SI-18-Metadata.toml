@@ -26,7 +26,7 @@ address_line2 = "Hornsby, NSW 2077"
 [client.contact]
 salutation = "Mr"
 title = "Production Manager"
-email = "david.pask@actionlaser.com"
+email = "davidp@actionlaser.com"
 phone = "0492 940 025"
 
 [client.contact.name]
