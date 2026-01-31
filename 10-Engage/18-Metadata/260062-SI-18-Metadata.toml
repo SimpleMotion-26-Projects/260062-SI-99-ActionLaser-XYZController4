@@ -4,14 +4,14 @@
 
 [document]
 type = "Quotation"
-number = "SI-QU-260052-01"
+number = "SI-QU-260062-01"
 issue_date = "2026-01-29"
 issue_date_formatted = "Wed 29-01-2026"
 expiry_date = "2026-02-28"
 expiry_date_formatted = "Sat 28-02-2026"
 
 [project]
-id = "260052-SI"
+id = "260062-SI"
 title = "XYZ Automated Table 4 - Design and Manufacture"
 base_price = 50285.00
 multiplier = 1.14

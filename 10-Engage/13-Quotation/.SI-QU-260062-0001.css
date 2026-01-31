@@ -1,4 +1,4 @@
-/* SimpleMotion Invoice Stylesheet - 260052 XYZ Automated Table 4 */
+/* SimpleMotion Quotation Stylesheet - 260062 XYZ Automated Table 4 */
 
 :root {
   --font-stack: Calibri, 'Calibri Light', sans-serif;
@@ -11,7 +11,7 @@
   margin: 15mm 20mm 20mm 20mm;
 
   @top-center {
-    content: "260052-SI - XYZ Automated Table 4 - Design and Manufacture";
+    content: "260062-SI - XYZ Automated Table 4 - Design and Manufacture";
     font-family: var(--font-stack);
     font-size: 7pt;
     vertical-align: middle;
@@ -26,7 +26,7 @@
   }
 
   @bottom-center {
-    content: "SI-IN-260052-0001.pdf";
+    content: "SI-QU-260062-0001.pdf";
     font-family: var(--font-stack);
     font-size: 7pt;
     vertical-align: middle;
@@ -73,19 +73,23 @@ table { width: 100%; }
 #client-details tr { border-bottom: 1px solid var(--color-border); }
 #contact tr { border-bottom: 2px solid var(--color-border); }
 
-.line-items { border-collapse: collapse; width: 100%; margin: 15px 5px; font-size: 8pt; }
-.line-items th, .line-items td { padding: 8px; border: 1px solid var(--color-border); vertical-align: middle; }
-.line-items th { background-color: var(--color-header-bg); font-weight: bold; text-align: left; }
-.line-items .units { text-align: center; }
-.line-items .unit-cost, .line-items .amount { text-align: right; }
+#introduction { font-size: 8pt; }
+#introduction p { margin: 10px 0; }
+#terms-conditions { font-size: 6pt; }
 
-.totals-section { padding: 0 5px; margin-top: 20px; }
-.totals-table { width: 250px; margin-left: auto; border-collapse: collapse; font-size: 8pt; }
-.totals-table td { padding: 4px 8px; }
-.totals-table td:first-child { text-align: right; font-weight: bold; }
-.totals-table td:last-child { text-align: right; }
-.totals-table .total-row { border-top: 2px solid var(--color-border); font-weight: bold; }
-.totals-table .amount-due { background-color: var(--color-header-bg); font-weight: bold; font-size: 10pt; }
+.page-content { font-size: 7pt; line-height: 1.4; padding: 0 5px; }
+.page-content h2 { font-size: 10pt; font-weight: bold; margin: 10px 0 4px 0; padding-bottom: 2px; border-bottom: 2px solid var(--color-border); }
+.page-content h3 { font-size: 9pt; font-weight: bold; margin: 8px 0 3px 0; }
+.page-content h4 { font-size: 7pt; font-weight: bold; margin: 6px 0 2px 0; }
+.page-content p { margin: 6px 0; }
+.page-content ul { margin: 3px 0; padding-left: 18px; }
+.page-content li { margin: 1px 0; }
+.page-content table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 7pt; }
+.page-content th, .page-content td { padding: 4px; border: 1px solid var(--color-border); vertical-align: middle; }
+.page-content th { background-color: var(--color-header-bg); font-weight: bold; text-align: left; }
+.page-content small { font-size: 6pt; }
 
-#bank-details { font-size: 7pt; text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid #ccc; }
-#bank-details p { margin: 3px 0; }
+.pricing-table { border-collapse: collapse; width: 100%; margin: 4px 0; }
+.pricing-table th, .pricing-table td { padding: 2px 6px; border: 1px solid var(--color-border); text-align: left; }
+.pricing-table th { background-color: var(--color-header-bg); font-weight: bold; }
+.pricing-table td:nth-child(4), .pricing-table th:nth-child(4) { text-align: right; }
